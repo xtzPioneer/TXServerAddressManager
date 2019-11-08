@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E37309A10EACFF259EA35BA5D1CB3F /* TXReleaseServerAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = D4362F957320B9E747676C99851D470C /* TXReleaseServerAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D7133AB04E87B3C139B08292A1A8569 /* TXServerAddressManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C7D0839E6D33AEA27F10D40ED55EC5 /* TXServerAddressManager-dummy.m */; };
+		33B6F4A232655F4DE7EA20AA2435CA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		52025C625089106CED0F7FD61B57905B /* TXReleaseServerAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473EFD9B3412F727EC1055EA6890F0D /* TXReleaseServerAddress.m */; };
+		61F909DBD3CBC50929FA01A0F65CA8A0 /* TXServerAddressManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD5DB805C1B2E49B02494E38A3757BA /* TXServerAddressManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66556004DD81A3B146BCAC9EB0CA5EA4 /* TXDeBugServerAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C7DF1D48429C2707B80CC3CB6E4D7C /* TXDeBugServerAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7707968666BF8F9B0F7797E5AC531BA4 /* TXServerAddressConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B37AC9D34F61E42D8790D36F55FD95 /* TXServerAddressConfig.m */; };
+		83184499B2440682652BB374329D8135 /* TXDeBugServerAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C42DDFD01FAAC81A0853BE79D01F5 /* TXDeBugServerAddress.m */; };
+		845804B38382093084E1AECECEBBAB11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A24EEFD7A0C07ED90C01BC27D80679D3 /* TXServerAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E3ED35DBCAA1D2D2FE9CBBA8CE5D0 /* TXServerAddressManager.m */; };
+		B16193036316A510AEFD4E21899B4C03 /* Pods-TXServerAddressManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3509FA1FAFFFB81370996D8C7B410258 /* Pods-TXServerAddressManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C590C6E53CA2A6D1447746353BFDE5FF /* Pods-TXServerAddressManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E14C353E4833E70517F713825227F0 /* Pods-TXServerAddressManager_Example-dummy.m */; };
+		CAE440CC54042A6B8A1427D7393028FD /* TXServerAddressManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 406DF4A210D3B42AE875DD1D8D4945B3 /* TXServerAddressManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5385ED7D1C990DC0945AF08543061AF /* Pods-TXServerAddressManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4E3D2E86AD3BA82C3F4D2F46563C23 /* Pods-TXServerAddressManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE547A0047861567EC1EB796879E8D1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DF344D944C7BC5BE9C1368471272AC2B /* TXServerAddressConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D9B6F3DF701E30283D4BA8A41CBA59 /* TXServerAddressConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4B648501D07D1423569A457917B1D9 /* Pods-TXServerAddressManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7555BD7FDC0078AD861B9F7EB0742BC6 /* Pods-TXServerAddressManager_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F0047E9C09391062242EEDC22E8F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F240A7733CB56B54882B61D4D08363;
+			remoteInfo = "Pods-TXServerAddressManager_Example";
+		};
+		8E943CE09C4C73902B1B59567278D2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6BDCBE3D924B9138B9CDF82DE89C9F;
+			remoteInfo = TXServerAddressManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011C42DDFD01FAAC81A0853BE79D01F5 /* TXDeBugServerAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXDeBugServerAddress.m; path = TXServerAddressManager/Classes/TXDeBugServerAddress.m; sourceTree = "<group>"; };
+		02F4450FF92A296EB1BE919BB471F16E /* Pods-TXServerAddressManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXServerAddressManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		07D9B6F3DF701E30283D4BA8A41CBA59 /* TXServerAddressConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXServerAddressConfig.h; path = TXServerAddressManager/Classes/TXServerAddressConfig.h; sourceTree = "<group>"; };
+		0B389961309120CFBDC3D959883B76A6 /* Pods-TXServerAddressManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXServerAddressManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13541D84082B86AEC018BF338F8B9C49 /* TXServerAddressManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TXServerAddressManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D72CF8D2940F27ED18D35711A041E0D /* Pods-TXServerAddressManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXServerAddressManager_Tests.modulemap"; sourceTree = "<group>"; };
+		1F3E09DF488EF43186234C0DEB768E53 /* TXServerAddressManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXServerAddressManager.xcconfig; sourceTree = "<group>"; };
+		28CD5D41826C46C827ED84795C383E7A /* Pods-TXServerAddressManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXServerAddressManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31209C497E68B70DD1122AEA8AAE8B8D /* Pods-TXServerAddressManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXServerAddressManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33E14C353E4833E70517F713825227F0 /* Pods-TXServerAddressManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXServerAddressManager_Example-dummy.m"; sourceTree = "<group>"; };
+		3509FA1FAFFFB81370996D8C7B410258 /* Pods-TXServerAddressManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXServerAddressManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		36C7DF1D48429C2707B80CC3CB6E4D7C /* TXDeBugServerAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXDeBugServerAddress.h; path = TXServerAddressManager/Classes/TXDeBugServerAddress.h; sourceTree = "<group>"; };
+		388E82886DF13276CD52107AD25D2214 /* Pods-TXServerAddressManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXServerAddressManager_Example-Info.plist"; sourceTree = "<group>"; };
+		3AEE8606AC9347FF97F0EF1265DA6F87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		406DF4A210D3B42AE875DD1D8D4945B3 /* TXServerAddressManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXServerAddressManager.h; path = TXServerAddressManager/Classes/TXServerAddressManager.h; sourceTree = "<group>"; };
+		4980261E6F4FF79CE18B1A33386CDC16 /* TXServerAddressManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXServerAddressManager.modulemap; sourceTree = "<group>"; };
+		73B37AC9D34F61E42D8790D36F55FD95 /* TXServerAddressConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXServerAddressConfig.m; path = TXServerAddressManager/Classes/TXServerAddressConfig.m; sourceTree = "<group>"; };
+		753D76BA525E2F5E5B9CA290749AEB5C /* Pods-TXServerAddressManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXServerAddressManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7555BD7FDC0078AD861B9F7EB0742BC6 /* Pods-TXServerAddressManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXServerAddressManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		7807EBBED69F97FFE1BA3FE6155877BC /* TXServerAddressManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXServerAddressManager-Info.plist"; sourceTree = "<group>"; };
+		79F0867625EF0CC0C859CC0228DF6048 /* TXServerAddressManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXServerAddressManager-prefix.pch"; sourceTree = "<group>"; };
+		7B71D02813BAA2E445F7C51C21F2DB06 /* TXServerAddressManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXServerAddressManager.framework; path = TXServerAddressManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0D102CE3A9776AE0571BBD8CC18740 /* Pods_TXServerAddressManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXServerAddressManager_Example.framework; path = "Pods-TXServerAddressManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAAF1AB0EC17F5FADA4AEBEF9F1BEE8 /* Pods-TXServerAddressManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXServerAddressManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8473EFD9B3412F727EC1055EA6890F0D /* TXReleaseServerAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXReleaseServerAddress.m; path = TXServerAddressManager/Classes/TXReleaseServerAddress.m; sourceTree = "<group>"; };
+		86C7D0839E6D33AEA27F10D40ED55EC5 /* TXServerAddressManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXServerAddressManager-dummy.m"; sourceTree = "<group>"; };
+		9CB7F8F90664945158B033104848943B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4F0B5C0CBD37E8F39599A0D213EFB5B /* Pods-TXServerAddressManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXServerAddressManager_Example.modulemap"; sourceTree = "<group>"; };
+		CAD5DB805C1B2E49B02494E38A3757BA /* TXServerAddressManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXServerAddressManager-umbrella.h"; sourceTree = "<group>"; };
+		CC4F21FEFEE52D18DBA0FCFAEF592E00 /* Pods-TXServerAddressManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXServerAddressManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CFD82A1B9455F1A230000D7A6CC642EC /* Pods-TXServerAddressManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXServerAddressManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D16FA82F554C5DE6158F6CB701A68BA0 /* Pods-TXServerAddressManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXServerAddressManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4362F957320B9E747676C99851D470C /* TXReleaseServerAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXReleaseServerAddress.h; path = TXServerAddressManager/Classes/TXReleaseServerAddress.h; sourceTree = "<group>"; };
+		DD4E3D2E86AD3BA82C3F4D2F46563C23 /* Pods-TXServerAddressManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXServerAddressManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6AE3B5DEA96DF88C6116A38895E47F9 /* Pods_TXServerAddressManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXServerAddressManager_Tests.framework; path = "Pods-TXServerAddressManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9795002146D39D762159C6B225B2EBD /* Pods-TXServerAddressManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXServerAddressManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		EE4E3ED35DBCAA1D2D2FE9CBBA8CE5D0 /* TXServerAddressManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXServerAddressManager.m; path = TXServerAddressManager/Classes/TXServerAddressManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063C820A29896D90107BB70DEAAF44F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6F4A232655F4DE7EA20AA2435CA23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E305E2BBE57363E7D45F15BEC74F64EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE547A0047861567EC1EB796879E8D1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FC144EC30E63981ECAE3C51A0AE059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845804B38382093084E1AECECEBBAB11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A2808EF9FC1C8647C05AA840E67795 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9CB7F8F90664945158B033104848943B /* LICENSE */,
+				3AEE8606AC9347FF97F0EF1265DA6F87 /* README.md */,
+				13541D84082B86AEC018BF338F8B9C49 /* TXServerAddressManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3A6B87FBD9B3EFE75D5663915EE0181C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C0D102CE3A9776AE0571BBD8CC18740 /* Pods_TXServerAddressManager_Example.framework */,
+				E6AE3B5DEA96DF88C6116A38895E47F9 /* Pods_TXServerAddressManager_Tests.framework */,
+				7B71D02813BAA2E445F7C51C21F2DB06 /* TXServerAddressManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AA8431F7BA0D890ECDA075BBDEE490 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4980261E6F4FF79CE18B1A33386CDC16 /* TXServerAddressManager.modulemap */,
+				1F3E09DF488EF43186234C0DEB768E53 /* TXServerAddressManager.xcconfig */,
+				86C7D0839E6D33AEA27F10D40ED55EC5 /* TXServerAddressManager-dummy.m */,
+				7807EBBED69F97FFE1BA3FE6155877BC /* TXServerAddressManager-Info.plist */,
+				79F0867625EF0CC0C859CC0228DF6048 /* TXServerAddressManager-prefix.pch */,
+				CAD5DB805C1B2E49B02494E38A3757BA /* TXServerAddressManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TXServerAddressManager";
+			sourceTree = "<group>";
+		};
+		5E91A1FF0813E97EB010976DBE4D333A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99842CC3F02412ADA674DDEF11DC445F /* TXServerAddressManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		96F4FCA7ED931C8ED48A655C6A189AA5 /* Pods-TXServerAddressManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B4F0B5C0CBD37E8F39599A0D213EFB5B /* Pods-TXServerAddressManager_Example.modulemap */,
+				D16FA82F554C5DE6158F6CB701A68BA0 /* Pods-TXServerAddressManager_Example-acknowledgements.markdown */,
+				753D76BA525E2F5E5B9CA290749AEB5C /* Pods-TXServerAddressManager_Example-acknowledgements.plist */,
+				33E14C353E4833E70517F713825227F0 /* Pods-TXServerAddressManager_Example-dummy.m */,
+				CC4F21FEFEE52D18DBA0FCFAEF592E00 /* Pods-TXServerAddressManager_Example-frameworks.sh */,
+				388E82886DF13276CD52107AD25D2214 /* Pods-TXServerAddressManager_Example-Info.plist */,
+				3509FA1FAFFFB81370996D8C7B410258 /* Pods-TXServerAddressManager_Example-umbrella.h */,
+				28CD5D41826C46C827ED84795C383E7A /* Pods-TXServerAddressManager_Example.debug.xcconfig */,
+				02F4450FF92A296EB1BE919BB471F16E /* Pods-TXServerAddressManager_Example.release.xcconfig */,
+			);
+			name = "Pods-TXServerAddressManager_Example";
+			path = "Target Support Files/Pods-TXServerAddressManager_Example";
+			sourceTree = "<group>";
+		};
+		99842CC3F02412ADA674DDEF11DC445F /* TXServerAddressManager */ = {
+			isa = PBXGroup;
+			children = (
+				36C7DF1D48429C2707B80CC3CB6E4D7C /* TXDeBugServerAddress.h */,
+				011C42DDFD01FAAC81A0853BE79D01F5 /* TXDeBugServerAddress.m */,
+				D4362F957320B9E747676C99851D470C /* TXReleaseServerAddress.h */,
+				8473EFD9B3412F727EC1055EA6890F0D /* TXReleaseServerAddress.m */,
+				07D9B6F3DF701E30283D4BA8A41CBA59 /* TXServerAddressConfig.h */,
+				73B37AC9D34F61E42D8790D36F55FD95 /* TXServerAddressConfig.m */,
+				406DF4A210D3B42AE875DD1D8D4945B3 /* TXServerAddressManager.h */,
+				EE4E3ED35DBCAA1D2D2FE9CBBA8CE5D0 /* TXServerAddressManager.m */,
+				00A2808EF9FC1C8647C05AA840E67795 /* Pod */,
+				47AA8431F7BA0D890ECDA075BBDEE490 /* Support Files */,
+			);
+			name = TXServerAddressManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BD1E71B34AEFF91803F46732376C84AE /* Pods-TXServerAddressManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1D72CF8D2940F27ED18D35711A041E0D /* Pods-TXServerAddressManager_Tests.modulemap */,
+				31209C497E68B70DD1122AEA8AAE8B8D /* Pods-TXServerAddressManager_Tests-acknowledgements.markdown */,
+				0B389961309120CFBDC3D959883B76A6 /* Pods-TXServerAddressManager_Tests-acknowledgements.plist */,
+				7555BD7FDC0078AD861B9F7EB0742BC6 /* Pods-TXServerAddressManager_Tests-dummy.m */,
+				E9795002146D39D762159C6B225B2EBD /* Pods-TXServerAddressManager_Tests-Info.plist */,
+				DD4E3D2E86AD3BA82C3F4D2F46563C23 /* Pods-TXServerAddressManager_Tests-umbrella.h */,
+				CFD82A1B9455F1A230000D7A6CC642EC /* Pods-TXServerAddressManager_Tests.debug.xcconfig */,
+				7FAAF1AB0EC17F5FADA4AEBEF9F1BEE8 /* Pods-TXServerAddressManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-TXServerAddressManager_Tests";
+			path = "Target Support Files/Pods-TXServerAddressManager_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2336F29CF1DD06AD72D1229D82EA74A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F4FCA7ED931C8ED48A655C6A189AA5 /* Pods-TXServerAddressManager_Example */,
+				BD1E71B34AEFF91803F46732376C84AE /* Pods-TXServerAddressManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5E91A1FF0813E97EB010976DBE4D333A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3A6B87FBD9B3EFE75D5663915EE0181C /* Products */,
+				C2336F29CF1DD06AD72D1229D82EA74A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61723A7926AB58B5B778C8243F0D604D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66556004DD81A3B146BCAC9EB0CA5EA4 /* TXDeBugServerAddress.h in Headers */,
+				13E37309A10EACFF259EA35BA5D1CB3F /* TXReleaseServerAddress.h in Headers */,
+				DF344D944C7BC5BE9C1368471272AC2B /* TXServerAddressConfig.h in Headers */,
+				61F909DBD3CBC50929FA01A0F65CA8A0 /* TXServerAddressManager-umbrella.h in Headers */,
+				CAE440CC54042A6B8A1427D7393028FD /* TXServerAddressManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF31584C0D91D47A75EB1ADE6343EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16193036316A510AEFD4E21899B4C03 /* Pods-TXServerAddressManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4D16B87C043AFCE546D4ECF7450FCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5385ED7D1C990DC0945AF08543061AF /* Pods-TXServerAddressManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		92F240A7733CB56B54882B61D4D08363 /* Pods-TXServerAddressManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A038E471A1E0D44C016048257832691 /* Build configuration list for PBXNativeTarget "Pods-TXServerAddressManager_Example" */;
+			buildPhases = (
+				B3DF31584C0D91D47A75EB1ADE6343EF /* Headers */,
+				FAF1BCD17408D9FEC67B96D753DFE04A /* Sources */,
+				063C820A29896D90107BB70DEAAF44F7 /* Frameworks */,
+				2063EB4EFFBAFA0B477970064E5B0431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D41992C56185239F4DACF2720B4B29 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXServerAddressManager_Example";
+			productName = "Pods-TXServerAddressManager_Example";
+			productReference = 7C0D102CE3A9776AE0571BBD8CC18740 /* Pods_TXServerAddressManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3FBE3ED1E31FEE00C58D0E7EB0553F3 /* Pods-TXServerAddressManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FC24DC1A328AFBD430B087B042166A /* Build configuration list for PBXNativeTarget "Pods-TXServerAddressManager_Tests" */;
+			buildPhases = (
+				BC4D16B87C043AFCE546D4ECF7450FCD /* Headers */,
+				F137D0E7BF014E144240D1C159F86104 /* Sources */,
+				F8FC144EC30E63981ECAE3C51A0AE059 /* Frameworks */,
+				F1D4670FAD5FD47ECC78FEEAE7922235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D5925A8FBC7B1BBB43AFA825B78C81 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXServerAddressManager_Tests";
+			productName = "Pods-TXServerAddressManager_Tests";
+			productReference = E6AE3B5DEA96DF88C6116A38895E47F9 /* Pods_TXServerAddressManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF6BDCBE3D924B9138B9CDF82DE89C9F /* TXServerAddressManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1C6C020A6BC11D693EA27B5999A628 /* Build configuration list for PBXNativeTarget "TXServerAddressManager" */;
+			buildPhases = (
+				61723A7926AB58B5B778C8243F0D604D /* Headers */,
+				0480A2772CED362038FF7C74992B4F76 /* Sources */,
+				E305E2BBE57363E7D45F15BEC74F64EA /* Frameworks */,
+				F0DCF72F21ACA4974B0CC892CECB6DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXServerAddressManager;
+			productName = TXServerAddressManager;
+			productReference = 7B71D02813BAA2E445F7C51C21F2DB06 /* TXServerAddressManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A6B87FBD9B3EFE75D5663915EE0181C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F240A7733CB56B54882B61D4D08363 /* Pods-TXServerAddressManager_Example */,
+				C3FBE3ED1E31FEE00C58D0E7EB0553F3 /* Pods-TXServerAddressManager_Tests */,
+				EF6BDCBE3D924B9138B9CDF82DE89C9F /* TXServerAddressManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2063EB4EFFBAFA0B477970064E5B0431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DCF72F21ACA4974B0CC892CECB6DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D4670FAD5FD47ECC78FEEAE7922235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0480A2772CED362038FF7C74992B4F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83184499B2440682652BB374329D8135 /* TXDeBugServerAddress.m in Sources */,
+				52025C625089106CED0F7FD61B57905B /* TXReleaseServerAddress.m in Sources */,
+				7707968666BF8F9B0F7797E5AC531BA4 /* TXServerAddressConfig.m in Sources */,
+				2D7133AB04E87B3C139B08292A1A8569 /* TXServerAddressManager-dummy.m in Sources */,
+				A24EEFD7A0C07ED90C01BC27D80679D3 /* TXServerAddressManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F137D0E7BF014E144240D1C159F86104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4B648501D07D1423569A457917B1D9 /* Pods-TXServerAddressManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1BCD17408D9FEC67B96D753DFE04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C590C6E53CA2A6D1447746353BFDE5FF /* Pods-TXServerAddressManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D41992C56185239F4DACF2720B4B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXServerAddressManager;
+			target = EF6BDCBE3D924B9138B9CDF82DE89C9F /* TXServerAddressManager */;
+			targetProxy = 8E943CE09C4C73902B1B59567278D2BF /* PBXContainerItemProxy */;
+		};
+		F7D5925A8FBC7B1BBB43AFA825B78C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXServerAddressManager_Example";
+			target = 92F240A7733CB56B54882B61D4D08363 /* Pods-TXServerAddressManager_Example */;
+			targetProxy = 32F0047E9C09391062242EEDC22E8F8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46AEBC205C7B3AE22A6933CC7D784F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CD5D41826C46C827ED84795C383E7A /* Pods-TXServerAddressManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXServerAddressManager_Example/Pods-TXServerAddressManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXServerAddressManager_Example/Pods-TXServerAddressManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		500FC97554536F00D619B56172A13ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3E09DF488EF43186234C0DEB768E53 /* TXServerAddressManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXServerAddressManager/TXServerAddressManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXServerAddressManager/TXServerAddressManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXServerAddressManager/TXServerAddressManager.modulemap";
+				PRODUCT_MODULE_NAME = TXServerAddressManager;
+				PRODUCT_NAME = TXServerAddressManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83614AE69674B1364A25CD80CB206185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD82A1B9455F1A230000D7A6CC642EC /* Pods-TXServerAddressManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXServerAddressManager_Tests/Pods-TXServerAddressManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXServerAddressManager_Tests/Pods-TXServerAddressManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1FDE299537014E98DD514040851AB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F4450FF92A296EB1BE919BB471F16E /* Pods-TXServerAddressManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXServerAddressManager_Example/Pods-TXServerAddressManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXServerAddressManager_Example/Pods-TXServerAddressManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBAFAE78D3436AD06B2055E27C9CCD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3E09DF488EF43186234C0DEB768E53 /* TXServerAddressManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXServerAddressManager/TXServerAddressManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXServerAddressManager/TXServerAddressManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXServerAddressManager/TXServerAddressManager.modulemap";
+				PRODUCT_MODULE_NAME = TXServerAddressManager;
+				PRODUCT_NAME = TXServerAddressManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAF606D3617715CD6AF55837EA244DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAAF1AB0EC17F5FADA4AEBEF9F1BEE8 /* Pods-TXServerAddressManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXServerAddressManager_Tests/Pods-TXServerAddressManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXServerAddressManager_Tests/Pods-TXServerAddressManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FC24DC1A328AFBD430B087B042166A /* Build configuration list for PBXNativeTarget "Pods-TXServerAddressManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83614AE69674B1364A25CD80CB206185 /* Debug */,
+				FAF606D3617715CD6AF55837EA244DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A038E471A1E0D44C016048257832691 /* Build configuration list for PBXNativeTarget "Pods-TXServerAddressManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AEBC205C7B3AE22A6933CC7D784F3F /* Debug */,
+				C1FDE299537014E98DD514040851AB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1C6C020A6BC11D693EA27B5999A628 /* Build configuration list for PBXNativeTarget "TXServerAddressManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500FC97554536F00D619B56172A13ECA /* Debug */,
+				DBAFAE78D3436AD06B2055E27C9CCD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

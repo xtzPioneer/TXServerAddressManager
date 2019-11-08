@@ -1,0 +1,6 @@
+framework module TXServerAddressManager {
+  umbrella header "TXServerAddressManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

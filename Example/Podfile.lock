@@ -1,0 +1,16 @@
+PODS:
+  - TXServerAddressManager (0.1.1)
+
+DEPENDENCIES:
+  - TXServerAddressManager (from `../`)
+
+EXTERNAL SOURCES:
+  TXServerAddressManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TXServerAddressManager: 031e0b67d3700c3204854279319437930facd47c
+
+PODFILE CHECKSUM: 416fac2ba68a528060c7ff4a0ba9823e66c0eaca
+
+COCOAPODS: 1.8.4
