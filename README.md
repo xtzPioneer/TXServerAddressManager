@@ -20,7 +20,7 @@ iOS 8.0+
 pod 'TXServerAddressManager'
 ```
 ## 使用姿势
-#### 配置
+### 配置环境
 ```objc
 // 服务器地址管理
 [TXServerAddressManager setServerAddressConfig:^(TXServerAddressConfig * _Nonnull serverAddressConfig) {
@@ -32,7 +32,7 @@ pod 'TXServerAddressManager'
 // 设置Run类型
 [TXServerAddressManager setRunType:TXSARunTypeRelease];
 ```
-#### 使用
+### 使用说明
 ```objc
 // 获取服务器地址
 [TXServerAddressManager manager].serverAddress
