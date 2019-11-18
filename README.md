@@ -10,7 +10,7 @@
 要运行示例项目，请克隆存储库，然后首先从Example目录运行`pod install`。
 
 ## 要求
-iOS 8.0
+iOS 8.0以上
 ## 安装
 
 TXServerAddressManager is available through [CocoaPods](https://cocoapods.org). To install
