@@ -20,6 +20,17 @@ iOS 8.0+
 pod 'TXServerAddressManager'
 ```
 ## 使用姿势
+```objc
+    // 服务器地址管理
+    [TXServerAddressManager setServerAddressConfig:^(TXServerAddressConfig * _Nonnull serverAddressConfig) {
+        serverAddressConfig.releaseServerAddressConfig.serverAddress = @"192.168.1.125";
+        serverAddressConfig.releaseServerAddressConfig.serverPort = @"8080";
+        serverAddressConfig.deBugServerAddressConfig.serverAddress = @"192.168.1.160";
+        serverAddressConfig.deBugServerAddressConfig.serverAddress = @"9000";
+    }];
+    // 设置Run类型
+    [TXServerAddressManager setRunType:TXSARunTypeRelease];
+```
 
 ## 作者
 
