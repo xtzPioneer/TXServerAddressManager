@@ -13,8 +13,7 @@
 iOS 8.0以上
 ## 安装
 
-TXServerAddressManager is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+可通过CocoaPods获得TXServerAddressManager。要安装它，只需将以下行添加到您的Podfile中：
 
 ```ruby
 pod 'TXServerAddressManager'
