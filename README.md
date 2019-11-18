@@ -20,6 +20,7 @@ iOS 8.0+
 pod 'TXServerAddressManager'
 ```
 ## 使用姿势
+### 配置环境
 ```objc
 // 服务器地址管理
 [TXServerAddressManager setServerAddressConfig:^(TXServerAddressConfig * _Nonnull serverAddressConfig) {
