@@ -47,7 +47,7 @@ pod 'TXServerAddressManager'
 [TXServerAddressManager setRunType:TXSARunTypeRelease];
 ```
 
-### 使用说明
+### 使用示例
 
 ```objc
 // 获取服务器地址
