@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/TXServerAddressManager.svg?style=flat)](https://cocoapods.org/pods/TXServerAddressManager)
 ## 介绍
 统一管理服务器地址。可设置Run类型，在Release、DeBug模式中快速切换服务器地址。
-## 示例
+## 运行示例项目
 
 要运行示例项目，请克隆存储库，然后首先从Example目录运行`pod install`。
 
