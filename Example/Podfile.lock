@@ -1,5 +1,5 @@
 PODS:
-  - TXServerAddressManager (0.1.1)
+  - TXServerAddressManager (0.1.2)
 
 DEPENDENCIES:
   - TXServerAddressManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TXServerAddressManager: 031e0b67d3700c3204854279319437930facd47c
+  TXServerAddressManager: 743dfe6c077e4a3976a820185f09003d65dd21c1
 
 PODFILE CHECKSUM: 416fac2ba68a528060c7ff4a0ba9823e66c0eaca
 

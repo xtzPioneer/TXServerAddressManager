@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "张雄";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YSMJ24QAA8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = A9C8606267716304680C658B /* Pods-TXServerAddressManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSMJ24QAA8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TXServerAddressManager/TXServerAddressManager-Prefix.pch";
 				INFOPLIST_FILE = "TXServerAddressManager/TXServerAddressManager-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 78E4C09CAE8DEF62E2C3BBFB /* Pods-TXServerAddressManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSMJ24QAA8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TXServerAddressManager/TXServerAddressManager-Prefix.pch";
 				INFOPLIST_FILE = "TXServerAddressManager/TXServerAddressManager-Info.plist";

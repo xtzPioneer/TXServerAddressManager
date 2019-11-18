@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXServerAddressManager'
-  s.version          = '0.1.1'
-  s.summary          = '服务器地址管理器.'
+  s.version          = '0.1.2'
+  s.summary          = '统一管理服务器地址.可设置Run类型,在Release、DeBug模式中快速切换服务器地址.'
   s.description      = <<-DESC
-  由TX所开发的服务器地址管理器.
+  由TX所开发的统一管理服务器地址.可设置Run类型,在Release、DeBug模式中快速切换服务器地址.
                        DESC
   s.homepage         = 'https://github.com/xtzPioneer/TXServerAddressManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

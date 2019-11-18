@@ -19,7 +19,7 @@ typedef NS_ENUM(NSInteger,TXSARunType) {
     TXSARunTypeDeBug   = 1,
 };
 
-/** 服务器地址管理器 */
+/** 统一管理服务器地址.可设置Run类型,在Release、DeBug模式中快速切换服务器地址. */
 @interface TXServerAddressManager : NSObject
 
 /** 设置服务器地址配置 */
@@ -40,11 +40,17 @@ typedef NS_ENUM(NSInteger,TXSARunType) {
 /** 获取Run类型 */
 + (TXSARunType)runType;
 
-/** 服务器地址 */
-@property (nonatomic,copy,readonly)NSString *serverAddress;
+/** 获取服务器地址 */
+- (NSString *)serverAddress;
 
-/** 服务器端口 */
-@property (nonatomic,copy,readonly)NSString *serverPort;
+/** 获取服务器地址 */
++ (NSString *)serverAddress;
+
+/** 获取服务器端口 */
+- (NSString *)serverPort;
+
+/** 获取服务器端口 */
++ (NSString *)serverPort;
 
 /** 快速创建服务器地址管理器 */
 + (instancetype)manager;

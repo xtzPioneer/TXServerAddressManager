@@ -13,12 +13,6 @@
 /** 服务器地址配置 */
 @property (nonatomic,strong)TXServerAddressConfig *aServerAddressConfig;
 
-/** 服务器地址 */
-@property (nonatomic,copy,readwrite)NSString *serverAddress;
-
-/** 服务器端口 */
-@property (nonatomic,copy,readwrite)NSString *serverPort;
-
 /** Run类型 */
 @property (nonatomic,assign)TXSARunType aRunType;
 
@@ -59,6 +53,14 @@
     [[self manager] setRunType:runType];
 }
 
+- (TXSARunType)runType {
+    return self.aRunType;
+}
+
++ (TXSARunType)runType {
+    return [[self manager] runType];
+}
+
 - (NSString *)serverAddress {
     switch (self.aRunType) {
         case TXSARunTypeRelease: {
@@ -72,6 +74,10 @@
         default:
             break;
     }
+}
+
++ (NSString *)serverAddress {
+    return [[self manager] serverAddress];
 }
 
 - (NSString *)serverPort {
@@ -89,12 +95,8 @@
     }
 }
 
-- (TXSARunType)runType {
-    return self.aRunType;
-}
-
-+ (TXSARunType)runType {
-    return [[self manager] runType];
++ (NSString *)serverPort {
+    return [[self manager] serverPort];
 }
 
 @end
