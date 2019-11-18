@@ -34,7 +34,10 @@ pod 'TXServerAddressManager'
 ```
 #### 使用
 ```objc
-
+// 获取服务器地址
+[TXServerAddressManager manager].serverAddress
+// 获取服务器端口
+[TXServerAddressManager manager].serverPort
 ```
 
 ## 作者
